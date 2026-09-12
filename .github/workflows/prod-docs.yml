@@ -1,0 +1,51 @@
+name: Prod DC1 documentation and AVD report
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  HOME: /home/avd
+
+jobs:
+
+  build_docs:
+    runs-on: ubuntu-latest
+    # container:
+    #   image: ghcr.io/aristanetworks/avd/universal:python3.14-avd-v6.4.0
+    #   options: --user root
+    steps:
+
+      - name: Checkout code ✅
+        uses: actions/checkout@v6
+
+      - name: Add repo to git safe directory
+        run: "git config --global --add safe.directory $GITHUB_WORKSPACE"
+
+      - name: move AVD docs ✂
+        run: |
+          cp -r documentation/* docs/
+          cp anta/reports/anta_report.md docs/
+          cp anta/reports/anta_report.md docs/index.md
+
+      - name: Build MkDocs Site
+        run: |
+          pip install mkdocs-material
+          mkdocs build
+
+      - name: Setup Pages 📖
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact 🔼
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site/
+
+      - name: Deploy to GitHub Pages 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
