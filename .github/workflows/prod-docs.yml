@@ -1,51 +1,96 @@
-name: Prod DC1 documentation and AVD report
+name: Publish DC1 documentation
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - sites/DC1/documentation/**
+      - sites/DC1/anta/**
+      - docs/**
+      - pages/**
+      - .github/workflows/prod-docs.yml
   workflow_dispatch:
   workflow_call:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
-env:
-  HOME: /home/avd
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
-
-  build_docs:
+  build:
+    name: Build DC1 documentation portal
     runs-on: ubuntu-latest
-    # container:
-    #   image: ghcr.io/aristanetworks/avd/universal:python3.14-avd-v6.4.0
-    #   options: --user root
-    steps:
 
-      - name: Checkout code ✅
+    steps:
+      - name: Check out repository
         uses: actions/checkout@v6
 
-      - name: Add repo to git safe directory
-        run: "git config --global --add safe.directory $GITHUB_WORKSPACE"
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
 
-      - name: move AVD docs ✂
+      - name: Install MkDocs Material
+        run: python -m pip install 'mkdocs-material==9.7.7'
+
+      - name: Stage portal content
+        shell: bash
         run: |
-          cp -r documentation/* docs/
-          cp anta/reports/anta_report.md docs/
-          cp anta/reports/anta_report.md docs/index.md
+          set -euo pipefail
 
-      - name: Build MkDocs Site
-        run: |
-          pip install mkdocs-material
-          mkdocs build
+          portal_dir="${RUNNER_TEMP}/dc1-portal"
+          docs_dir="${portal_dir}/docs"
+          reports_dir="${docs_dir}/reports"
+          topology_dir="${docs_dir}/assets/topology"
 
-      - name: Setup Pages 📖
+          test -d sites/DC1/documentation
+          test -d sites/DC1/anta/reports
+          test -f sites/DC1/anta/reports/anta_report.json
+          test -f sites/DC1/anta/psirt_report.md
+          test -f docs/L3LS_ACT_DigitalTwin_topology.svg
+
+          mkdir -p "${portal_dir}" "${reports_dir}" "${topology_dir}"
+          cp -R pages/. "${portal_dir}/"
+          cp -R sites/DC1/documentation/. "${docs_dir}/"
+          cp -R sites/DC1/anta/reports/. "${reports_dir}/"
+          cp sites/DC1/anta/psirt_report.md "${reports_dir}/psirt_report.md"
+          cp docs/L3LS_ACT_DigitalTwin_topology.* "${topology_dir}/"
+          cp docs/L3LS_ACT_DigitalTwin_topo.yml "${topology_dir}/"
+
+          python "${portal_dir}/scripts/render_homepage.py" \
+            --report sites/DC1/anta/reports/anta_report.json \
+            --homepage "${docs_dir}/index.md"
+
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact 🔼
+      - name: Build portal
+        run: >-
+          mkdocs build
+          --strict
+          --config-file "${RUNNER_TEMP}/dc1-portal/mkdocs.yml"
+          --site-dir "${RUNNER_TEMP}/dc1-site"
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site/
+          path: ${{ runner.temp }}/dc1-site
 
-      - name: Deploy to GitHub Pages 🚀
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

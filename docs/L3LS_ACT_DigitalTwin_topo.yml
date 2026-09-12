@@ -1,0 +1,133 @@
+links:
+- connection:
+  - DC1-SPINE1:Ethernet1
+  - DC1-LEAF1:Ethernet1
+- connection:
+  - DC1-SPINE2:Ethernet1
+  - DC1-LEAF1:Ethernet2
+- connection:
+  - DC1-SPINE1:Ethernet2
+  - DC1-LEAF2:Ethernet1
+- connection:
+  - DC1-SPINE2:Ethernet2
+  - DC1-LEAF2:Ethernet2
+- connection:
+  - DC1-SPINE1:Ethernet3
+  - DC1-LEAF3:Ethernet1
+- connection:
+  - DC1-SPINE2:Ethernet3
+  - DC1-LEAF3:Ethernet2
+- connection:
+  - DC1-SPINE1:Ethernet4
+  - DC1-LEAF4:Ethernet1
+- connection:
+  - DC1-SPINE2:Ethernet4
+  - DC1-LEAF4:Ethernet2
+- connection:
+  - DC1-SPINE1:Ethernet5
+  - DC1-BORDERLEAF1:Ethernet1
+- connection:
+  - DC1-SPINE2:Ethernet5
+  - DC1-BORDERLEAF1:Ethernet2
+- connection:
+  - DC1-SPINE1:Ethernet6
+  - DC1-BORDERLEAF2:Ethernet1
+- connection:
+  - DC1-SPINE2:Ethernet6
+  - DC1-BORDERLEAF2:Ethernet2
+- connection:
+  - DC1-LEAF1:Ethernet3
+  - DC1-LEAF2:Ethernet3
+- connection:
+  - DC1-LEAF1:Ethernet4
+  - DC1-LEAF2:Ethernet4
+- connection:
+  - DC1-LEAF3:Ethernet3
+  - DC1-LEAF4:Ethernet3
+- connection:
+  - DC1-LEAF3:Ethernet4
+  - DC1-LEAF4:Ethernet4
+- connection:
+  - DC1-BORDERLEAF1:Ethernet3
+  - DC1-BORDERLEAF2:Ethernet3
+- connection:
+  - DC1-BORDERLEAF1:Ethernet4
+  - DC1-BORDERLEAF2:Ethernet4
+- connection:
+  - DC1-LEAF1:Ethernet5
+  - DC1-HOST1:eth1
+- connection:
+  - DC1-LEAF2:Ethernet5
+  - DC1-HOST1:eth2
+- connection:
+  - DC1-LEAF1:Ethernet6
+  - DC1-HOST2:eth1
+- connection:
+  - DC1-LEAF2:Ethernet6
+  - DC1-HOST2:eth2
+- connection:
+  - DC1-LEAF3:Ethernet5
+  - DC1-HOST3:eth1
+- connection:
+  - DC1-LEAF4:Ethernet5
+  - DC1-HOST3:eth2
+- connection:
+  - DC1-LEAF3:Ethernet6
+  - DC1-HOST4:eth1
+- connection:
+  - DC1-LEAF4:Ethernet6
+  - DC1-HOST4:eth2
+nodes:
+- DC1-SPINE1:
+    internet_access: true
+    ip_addr: 192.168.0.11
+    node_type: veos
+- DC1-SPINE2:
+    internet_access: true
+    ip_addr: 192.168.0.12
+    node_type: veos
+- DC1-LEAF1:
+    internet_access: true
+    ip_addr: 192.168.0.101
+    node_type: veos
+- DC1-LEAF2:
+    internet_access: true
+    ip_addr: 192.168.0.102
+    node_type: veos
+- DC1-LEAF3:
+    internet_access: true
+    ip_addr: 192.168.0.103
+    node_type: veos
+- DC1-LEAF4:
+    internet_access: true
+    ip_addr: 192.168.0.104
+    node_type: veos
+- DC1-BORDERLEAF1:
+    internet_access: true
+    ip_addr: 192.168.0.105
+    node_type: veos
+- DC1-BORDERLEAF2:
+    internet_access: true
+    ip_addr: 192.168.0.106
+    node_type: veos
+- DC1-HOST1:
+    ip_addr: 192.168.0.201
+    node_type: veos
+- DC1-HOST2:
+    ip_addr: 192.168.0.202
+    node_type: veos
+- DC1-HOST3:
+    ip_addr: 192.168.0.203
+    node_type: veos
+- DC1-HOST4:
+    ip_addr: 192.168.0.204
+    node_type: veos
+- tool-server:
+    internet_access: true
+    instance_type: large
+    ip_addr: 192.168.0.6
+    node_type: tools-server
+veos:
+  switchport_default_mode_routed: false
+  username: arista
+  version: 4.35.4M

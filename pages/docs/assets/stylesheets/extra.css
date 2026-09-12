@@ -1,0 +1,112 @@
+:root {
+  --portal-success: #16a34a;
+  --portal-failure: #dc2626;
+}
+
+.portal-hero {
+  margin: 0 0 1.5rem;
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  color: #fff;
+  border-radius: 1rem;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(34, 211, 238, .35), transparent 35%),
+    linear-gradient(135deg, #083344, #115e59 55%, #0e7490);
+  box-shadow: 0 1rem 3rem rgba(8, 51, 68, .2);
+}
+
+.portal-hero + .portal-metrics {
+  margin-top: -.5rem;
+}
+
+.portal-hero .md-button {
+  margin: .4rem .4rem 0 0;
+  color: #fff;
+  border-color: rgba(255, 255, 255, .65);
+}
+
+.portal-hero .md-button--primary {
+  color: #083344;
+  background: #fff;
+  border-color: #fff;
+}
+
+.portal-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .75rem;
+  margin-bottom: 2rem;
+}
+
+.portal-metrics > div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .75rem;
+  background: var(--md-default-bg-color);
+}
+
+.portal-metrics strong {
+  font-size: 1.75rem;
+  line-height: 1.1;
+}
+
+.portal-metrics span {
+  margin-top: .25rem;
+  color: var(--md-default-fg-color--light);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.portal-metrics .metric-success strong {
+  color: var(--portal-success);
+}
+
+.portal-metrics .metric-failure strong {
+  color: var(--portal-failure);
+}
+
+.topology-diagram {
+  display: block;
+  width: 100%;
+  margin: 1rem 0 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .75rem;
+  background: #f8fafc;
+  box-shadow: 0 .75rem 2rem rgba(8, 51, 68, .08);
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+
+.topology-diagram:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 1rem 2.5rem rgba(8, 51, 68, .14);
+  transform: translateY(-2px);
+}
+
+.md-typeset .grid.cards {
+  margin-top: 2rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: .75rem;
+  transition: border-color .2s, box-shadow .2s, transform .2s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 .75rem 2rem rgba(8, 51, 68, .1);
+  transform: translateY(-2px);
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+}
+
+@media screen and (max-width: 44.9844em) {
+  .portal-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

@@ -1,0 +1,75 @@
+site_name: DC1 Network Portal
+site_description: Arista AVD documentation, ANTA validation, and PSIRT security reporting for DC1
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/lan
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Use dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Use light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+nav:
+  - Overview: index.md
+  - Fabric:
+      - DC1 fabric: fabric/DC1_FABRIC-documentation.md
+  - Devices:
+      - Spines:
+          - DC1-SPINE1: devices/DC1-SPINE1.md
+          - DC1-SPINE2: devices/DC1-SPINE2.md
+      - Leafs:
+          - DC1-LEAF1: devices/DC1-LEAF1.md
+          - DC1-LEAF2: devices/DC1-LEAF2.md
+          - DC1-LEAF3: devices/DC1-LEAF3.md
+          - DC1-LEAF4: devices/DC1-LEAF4.md
+      - Border leafs:
+          - DC1-BORDERLEAF1: devices/DC1-BORDERLEAF1.md
+          - DC1-BORDERLEAF2: devices/DC1-BORDERLEAF2.md
+  - Assurance:
+      - Network validation: reports/anta_report.md
+      - Security advisories: reports/psirt_report.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
