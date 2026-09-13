@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build DC1 documentation portal
+    name: Build static documentation portal
     runs-on: ubuntu-latest
 
     steps:
@@ -36,46 +36,19 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Install MkDocs Material
-        run: python -m pip install 'mkdocs-material==9.7.7'
-
-      - name: Stage portal content
+      - name: Assemble static site
         shell: bash
         run: |
           set -euo pipefail
+          python pages/scripts/build_site.py --output "${RUNNER_TEMP}/dc1-site"
 
-          portal_dir="${RUNNER_TEMP}/dc1-portal"
-          docs_dir="${portal_dir}/docs"
-          reports_dir="${docs_dir}/reports"
-          topology_dir="${docs_dir}/assets/topology"
-
-          test -d sites/DC1/documentation
-          test -d sites/DC1/anta/reports
-          test -f sites/DC1/anta/reports/anta_report.json
-          test -f sites/DC1/anta/psirt_report.md
-          test -f docs/L3LS_ACT_DigitalTwin_topology.svg
-
-          mkdir -p "${portal_dir}" "${reports_dir}" "${topology_dir}"
-          cp -R pages/. "${portal_dir}/"
-          cp -R sites/DC1/documentation/. "${docs_dir}/"
-          cp -R sites/DC1/anta/reports/. "${reports_dir}/"
-          cp sites/DC1/anta/psirt_report.md "${reports_dir}/psirt_report.md"
-          cp docs/L3LS_ACT_DigitalTwin_topology.* "${topology_dir}/"
-          cp docs/L3LS_ACT_DigitalTwin_topo.yml "${topology_dir}/"
-
-          python "${portal_dir}/scripts/render_homepage.py" \
-            --report sites/DC1/anta/reports/anta_report.json \
-            --homepage "${docs_dir}/index.md"
+          test -f "${RUNNER_TEMP}/dc1-site/index.html"
+          test -f "${RUNNER_TEMP}/dc1-site/assets/data/site.json"
+          test -f "${RUNNER_TEMP}/dc1-site/content/reports/anta_report.md"
+          test -f "${RUNNER_TEMP}/dc1-site/content/reports/psirt_report.md"
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
-
-      - name: Build portal
-        run: >-
-          mkdocs build
-          --strict
-          --config-file "${RUNNER_TEMP}/dc1-portal/mkdocs.yml"
-          --site-dir "${RUNNER_TEMP}/dc1-site"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
