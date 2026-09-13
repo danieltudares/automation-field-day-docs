@@ -3,6 +3,15 @@
   --portal-failure: #dc2626;
 }
 
+/* Give generated network documentation substantially more horizontal room. */
+.md-grid {
+  max-width: 100rem;
+}
+
+.md-content {
+  min-width: 0;
+}
+
 .portal-hero {
   margin: 0 0 1.5rem;
   padding: clamp(1.5rem, 5vw, 3.5rem);
@@ -100,13 +109,48 @@
   transform: translateY(-2px);
 }
 
+.md-typeset__table {
+  width: 100%;
+}
+
 .md-typeset table:not([class]) {
   display: table;
   width: 100%;
+  font-size: .68rem;
+}
+
+.md-typeset table:not([class]) th {
+  min-width: 0;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: .55em .7em;
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* Long ANTA messages, URLs, and configurations should wrap before scrolling. */
+.md-typeset a,
+.md-typeset td,
+.md-typeset th {
+  overflow-wrap: anywhere;
+}
+
+.md-typeset pre > code {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 @media screen and (max-width: 44.9844em) {
   .portal-metrics {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md-typeset table:not([class]) {
+    font-size: .64rem;
   }
 }
