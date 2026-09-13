@@ -1,59 +1,11 @@
 Device,Test Name,Test Status,Message(s),Test description,Test category
-DC1-BORDERLEAF1,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:09:52 DC1-BORDERLEAF1 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1562) -- Master ProcMgr (PID=1562) exiting.
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-BORDERLEAF2,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:09:47 DC1-BORDERLEAF2 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1562) -- Master ProcMgr (PID=1562) exiting.
- Sep 12 13:09:47 DC1-BORDERLEAF2 StpTxRx: %FWK-3-SOCKET_CLOSE_REMOTE: Connection to Stp (pid:3771) at tbl://stpListen/+n closed by peer (EOF)
- Sep 12 13:09:47 DC1-BORDERLEAF2 StpTxRx: %FWK-3-MOUNT_PEER_CLOSED: Peer closed socket connection. (tbl://stpListen/+n-in)(Stp (pid:3771))
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-LEAF1,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:09:56 DC1-LEAF1 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1563) -- Master ProcMgr (PID=1563) exiting.
- Sep 12 13:09:56 DC1-LEAF1 StpTxRx: %FWK-3-SOCKET_CLOSE_REMOTE: Connection to Stp (pid:3839) at tbl://stpListen/+n closed by peer (EOF)
- Sep 12 13:09:56 DC1-LEAF1 StpTxRx: %FWK-3-MOUNT_PEER_CLOSED: Peer closed socket connection. (tbl://stpListen/+n-in)(Stp (pid:3839))
- Sep 12 13:11:03 DC1-LEAF1 Bgp: %BGP-3-NOTIFICATION: sent to neighbor 10.255.0.2 (VRF default AS 65000) 6/7 (Cease/connection collision resolution) 0 bytes 
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-LEAF2,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:10:02 DC1-LEAF2 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1568) -- Master ProcMgr (PID=1568) exiting.
- Sep 12 13:10:02 DC1-LEAF2 StpTxRx: %FWK-3-SOCKET_CLOSE_REMOTE: Connection to Stp (pid:3731) at tbl://stpListen/+n closed by peer (EOF)
- Sep 12 13:10:02 DC1-LEAF2 StpTxRx: %FWK-3-MOUNT_PEER_CLOSED: Peer closed socket connection. (tbl://stpListen/+n-in)(Stp (pid:3731))
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-LEAF3,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:10:05 DC1-LEAF3 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1566) -- Master ProcMgr (PID=1566) exiting.
- Sep 12 13:10:05 DC1-LEAF3 StpTxRx: %FWK-3-SOCKET_CLOSE_REMOTE: Connection to Stp (pid:3854) at tbl://stpListen/+n closed by peer (EOF)
- Sep 12 13:10:05 DC1-LEAF3 StpTxRx: %FWK-3-MOUNT_PEER_CLOSED: Peer closed socket connection. (tbl://stpListen/+n-in)(Stp (pid:3854))
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-LEAF4,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:09:55 DC1-LEAF4 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1568) -- Master ProcMgr (PID=1568) exiting.
- Sep 12 13:09:55 DC1-LEAF4 StpTxRx: %FWK-3-SOCKET_CLOSE_REMOTE: Connection to Stp (pid:3779) at tbl://stpListen/+n closed by peer (EOF)
- Sep 12 13:09:55 DC1-LEAF4 StpTxRx: %FWK-3-MOUNT_PEER_CLOSED: Peer closed socket connection. (tbl://stpListen/+n-in)(Stp (pid:3779))
- Sep 12 13:11:15 DC1-LEAF4 Bgp: %BGP-3-NOTIFICATION: sent to neighbor 10.255.255.20 (VRF default AS 65000) 6/5 (Cease/connection rejected) 0 bytes
- Sep 12 13:11:17 DC1-LEAF4 Bgp: %BGP-3-NOTIFICATION: sent to neighbor 10.255.0.1 (VRF default AS 65000) 6/7 (Cease/connection collision resolution) 0 bytes 
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-SPINE1,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:09:52 DC1-SPINE1 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1568) -- Master ProcMgr (PID=1568) exiting.
- Sep 12 13:09:52 DC1-SPINE1 Stp: %FWK-3-SOCKET_CLOSE_REMOTE: Connection to StpTxRx (pid:3649) at tbl://stpTxRxListen/+n closed by peer (EOF)
- Sep 12 13:09:52 DC1-SPINE1 Stp: %FWK-3-MOUNT_PEER_CLOSED: Peer closed socket connection. (tbl://stpTxRxListen/+n-in)(StpTxRx (pid:3649))
- Sep 12 13:11:15 DC1-SPINE1 Bgp: %BGP-3-NOTIFICATION: received from neighbor 10.255.255.21 (VRF default AS 65102) 6/5 (Cease/connection rejected) 0 bytes
- Sep 12 13:11:17 DC1-SPINE1 Bgp: %BGP-3-NOTIFICATION: sent to neighbor 10.255.0.38 (VRF default AS 65102) 6/7 (Cease/connection collision resolution) 0 bytes 
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
-DC1-SPINE2,VerifyLoggingErrors,failure,"Device has reported syslog messages with a severity of ERRORS or higher:
-Sep 12 13:09:59 DC1-SPINE2 ProcMgr: %PROCMGR-3-SHUTDOWNREQUESTED: ProcMgr shutdown requested via SIGQUIT or SIGTERM to worker (PID=1569) -- Master ProcMgr (PID=1569) exiting.
- Sep 12 13:11:03 DC1-SPINE2 Bgp: %BGP-3-NOTIFICATION: sent to neighbor 10.255.0.35 (VRF default AS 65101) 6/7 (Cease/connection collision resolution) 0 bytes 
- 
-",Verifies there are no syslog messages with a severity of ERRORS or higher.,Logging
 DC1-BORDERLEAF1,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.,BGP
 DC1-BORDERLEAF1,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-BORDERLEAF1,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-BORDERLEAF1,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
+DC1-BORDERLEAF1,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-BORDERLEAF1,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-BORDERLEAF1,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-BORDERLEAF1,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-BORDERLEAF1,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-BORDERLEAF1,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -64,6 +16,7 @@ DC1-BORDERLEAF1,VerifyPortChannels,success,,Verifies there are no inactive ports
 DC1-BORDERLEAF1,VerifyMlagConfigSanity,success,,Verifies there are no MLAG config-sanity inconsistencies.,MLAG
 DC1-BORDERLEAF1,VerifyMlagInterfaces,success,,Verifies there are no inactive or active-partial MLAG ports.,MLAG
 DC1-BORDERLEAF1,VerifyMlagStatus,success,,Verifies the health status of the MLAG configuration.,MLAG
+DC1-BORDERLEAF1,VerifyIPv4RoutePresencePerVRF,success,,Verifies that the provided IPv4 prefixes are present in the routing table.,Routing
 DC1-BORDERLEAF1,VerifyRoutingProtocolModel,success,,Verifies the configured routing protocol model.,Routing
 DC1-BORDERLEAF1,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU packets.,STP
 DC1-BORDERLEAF1,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
@@ -78,7 +31,9 @@ DC1-BORDERLEAF2,VerifyBGPPeerSession,success,,Verifies the session state of BGP 
 DC1-BORDERLEAF2,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-BORDERLEAF2,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-BORDERLEAF2,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
+DC1-BORDERLEAF2,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-BORDERLEAF2,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-BORDERLEAF2,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-BORDERLEAF2,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-BORDERLEAF2,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-BORDERLEAF2,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -89,6 +44,7 @@ DC1-BORDERLEAF2,VerifyPortChannels,success,,Verifies there are no inactive ports
 DC1-BORDERLEAF2,VerifyMlagConfigSanity,success,,Verifies there are no MLAG config-sanity inconsistencies.,MLAG
 DC1-BORDERLEAF2,VerifyMlagInterfaces,success,,Verifies there are no inactive or active-partial MLAG ports.,MLAG
 DC1-BORDERLEAF2,VerifyMlagStatus,success,,Verifies the health status of the MLAG configuration.,MLAG
+DC1-BORDERLEAF2,VerifyIPv4RoutePresencePerVRF,success,,Verifies that the provided IPv4 prefixes are present in the routing table.,Routing
 DC1-BORDERLEAF2,VerifyRoutingProtocolModel,success,,Verifies the configured routing protocol model.,Routing
 DC1-BORDERLEAF2,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU packets.,STP
 DC1-BORDERLEAF2,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
@@ -103,7 +59,9 @@ DC1-LEAF1,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.
 DC1-LEAF1,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-LEAF1,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-LEAF1,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
+DC1-LEAF1,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-LEAF1,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-LEAF1,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-LEAF1,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-LEAF1,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-LEAF1,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -114,6 +72,7 @@ DC1-LEAF1,VerifyPortChannels,success,,Verifies there are no inactive ports in po
 DC1-LEAF1,VerifyMlagConfigSanity,success,,Verifies there are no MLAG config-sanity inconsistencies.,MLAG
 DC1-LEAF1,VerifyMlagInterfaces,success,,Verifies there are no inactive or active-partial MLAG ports.,MLAG
 DC1-LEAF1,VerifyMlagStatus,success,,Verifies the health status of the MLAG configuration.,MLAG
+DC1-LEAF1,VerifyIPv4RoutePresencePerVRF,success,,Verifies that the provided IPv4 prefixes are present in the routing table.,Routing
 DC1-LEAF1,VerifyRoutingProtocolModel,success,,Verifies the configured routing protocol model.,Routing
 DC1-LEAF1,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU packets.,STP
 DC1-LEAF1,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
@@ -128,7 +87,9 @@ DC1-LEAF2,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.
 DC1-LEAF2,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-LEAF2,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-LEAF2,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
+DC1-LEAF2,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-LEAF2,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-LEAF2,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-LEAF2,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-LEAF2,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-LEAF2,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -139,6 +100,7 @@ DC1-LEAF2,VerifyPortChannels,success,,Verifies there are no inactive ports in po
 DC1-LEAF2,VerifyMlagConfigSanity,success,,Verifies there are no MLAG config-sanity inconsistencies.,MLAG
 DC1-LEAF2,VerifyMlagInterfaces,success,,Verifies there are no inactive or active-partial MLAG ports.,MLAG
 DC1-LEAF2,VerifyMlagStatus,success,,Verifies the health status of the MLAG configuration.,MLAG
+DC1-LEAF2,VerifyIPv4RoutePresencePerVRF,success,,Verifies that the provided IPv4 prefixes are present in the routing table.,Routing
 DC1-LEAF2,VerifyRoutingProtocolModel,success,,Verifies the configured routing protocol model.,Routing
 DC1-LEAF2,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU packets.,STP
 DC1-LEAF2,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
@@ -153,7 +115,9 @@ DC1-LEAF3,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.
 DC1-LEAF3,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-LEAF3,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-LEAF3,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
+DC1-LEAF3,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-LEAF3,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-LEAF3,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-LEAF3,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-LEAF3,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-LEAF3,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -164,6 +128,7 @@ DC1-LEAF3,VerifyPortChannels,success,,Verifies there are no inactive ports in po
 DC1-LEAF3,VerifyMlagConfigSanity,success,,Verifies there are no MLAG config-sanity inconsistencies.,MLAG
 DC1-LEAF3,VerifyMlagInterfaces,success,,Verifies there are no inactive or active-partial MLAG ports.,MLAG
 DC1-LEAF3,VerifyMlagStatus,success,,Verifies the health status of the MLAG configuration.,MLAG
+DC1-LEAF3,VerifyIPv4RoutePresencePerVRF,success,,Verifies that the provided IPv4 prefixes are present in the routing table.,Routing
 DC1-LEAF3,VerifyRoutingProtocolModel,success,,Verifies the configured routing protocol model.,Routing
 DC1-LEAF3,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU packets.,STP
 DC1-LEAF3,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
@@ -178,7 +143,9 @@ DC1-LEAF4,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.
 DC1-LEAF4,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-LEAF4,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-LEAF4,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
+DC1-LEAF4,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-LEAF4,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-LEAF4,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-LEAF4,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-LEAF4,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-LEAF4,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -189,6 +156,7 @@ DC1-LEAF4,VerifyPortChannels,success,,Verifies there are no inactive ports in po
 DC1-LEAF4,VerifyMlagConfigSanity,success,,Verifies there are no MLAG config-sanity inconsistencies.,MLAG
 DC1-LEAF4,VerifyMlagInterfaces,success,,Verifies there are no inactive or active-partial MLAG ports.,MLAG
 DC1-LEAF4,VerifyMlagStatus,success,,Verifies the health status of the MLAG configuration.,MLAG
+DC1-LEAF4,VerifyIPv4RoutePresencePerVRF,success,,Verifies that the provided IPv4 prefixes are present in the routing table.,Routing
 DC1-LEAF4,VerifyRoutingProtocolModel,success,,Verifies the configured routing protocol model.,Routing
 DC1-LEAF4,VerifySTPCounters,success,,Verifies there is no errors in STP BPDU packets.,STP
 DC1-LEAF4,VerifyAgentLogs,success,,Verifies there are no agent crash reports.,System
@@ -204,6 +172,7 @@ DC1-SPINE1,VerifyRunningConfigDiffs,success,,Verifies there is no difference bet
 DC1-SPINE1,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-SPINE1,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
 DC1-SPINE1,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-SPINE1,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-SPINE1,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-SPINE1,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
 DC1-SPINE1,VerifyInterfaceErrors,success,,Verifies that the interfaces error counters are equal to zero.,Interfaces
@@ -223,6 +192,7 @@ DC1-SPINE2,VerifyRunningConfigDiffs,success,,Verifies there is no difference bet
 DC1-SPINE2,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-SPINE2,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
 DC1-SPINE2,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
+DC1-SPINE2,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-SPINE2,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-SPINE2,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
 DC1-SPINE2,VerifyInterfaceErrors,success,,Verifies that the interfaces error counters are equal to zero.,Interfaces

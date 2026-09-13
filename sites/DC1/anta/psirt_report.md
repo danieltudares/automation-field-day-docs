@@ -45,41 +45,41 @@
 
 | Security Advisory | Severity | Devices | 🛑&nbsp;Affected | ❓&nbsp;Inconclusive | 🛡️&nbsp;Mitigated | ✅&nbsp;Not&nbsp;Affected | ❗&nbsp;Error | ⏭️&nbsp;Skipped |
 | :- | :- | :- | :- | :- | :- | :- | :- | :- |
-| [Security Advisory 0147](#sa-0147) | 🔴&nbsp;Critical | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0156](#sa-0156) | 🔴&nbsp;Critical | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0158](#sa-0158) | 🔴&nbsp;Critical | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0162](#sa-0162) | 🔴&nbsp;Critical | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
-| [Security Advisory 0174](#sa-0174) | 🔴&nbsp;Critical | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0146](#sa-0146) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0154](#sa-0154) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0160](#sa-0160) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0163](#sa-0163) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0164](#sa-0164) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0165](#sa-0165) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0166](#sa-0166) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0168](#sa-0168) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0171](#sa-0171) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0173](#sa-0173) | 🟠&nbsp;High | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0117](#sa-0117) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0140](#sa-0140) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0142](#sa-0142) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0149](#sa-0149) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0150](#sa-0150) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0151](#sa-0151) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0152](#sa-0152) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0153](#sa-0153) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0155](#sa-0155) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0157](#sa-0157) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0159](#sa-0159) | 🟡&nbsp;Medium | 4 | 4 | 0 | 0 | 0 | 0 | 0 |
-| [Security Advisory 0161](#sa-0161) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0167](#sa-0167) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0169](#sa-0169) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0170](#sa-0170) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 4 | 0 | 0 |
-| [Security Advisory 0172](#sa-0172) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0175](#sa-0175) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0176](#sa-0176) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0177](#sa-0177) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
-| [Security Advisory 0178](#sa-0178) | 🟡&nbsp;Medium | 4 | 0 | 0 | 0 | 0 | 4 | 0 |
+| [Security Advisory 0147](#sa-0147) | 🔴&nbsp;Critical | 8 | 8 | 0 | 0 | 0 | 0 | 0 |
+| [Security Advisory 0156](#sa-0156) | 🔴&nbsp;Critical | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0158](#sa-0158) | 🔴&nbsp;Critical | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0162](#sa-0162) | 🔴&nbsp;Critical | 8 | 0 | 8 | 0 | 0 | 0 | 0 |
+| [Security Advisory 0174](#sa-0174) | 🔴&nbsp;Critical | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0146](#sa-0146) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0154](#sa-0154) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0160](#sa-0160) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0163](#sa-0163) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0164](#sa-0164) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0165](#sa-0165) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0166](#sa-0166) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0168](#sa-0168) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0171](#sa-0171) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0173](#sa-0173) | 🟠&nbsp;High | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0117](#sa-0117) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0140](#sa-0140) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0142](#sa-0142) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0149](#sa-0149) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0150](#sa-0150) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0151](#sa-0151) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0152](#sa-0152) | 🟡&nbsp;Medium | 8 | 8 | 0 | 0 | 0 | 0 | 0 |
+| [Security Advisory 0153](#sa-0153) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0155](#sa-0155) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0157](#sa-0157) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0159](#sa-0159) | 🟡&nbsp;Medium | 8 | 8 | 0 | 0 | 0 | 0 | 0 |
+| [Security Advisory 0161](#sa-0161) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0167](#sa-0167) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0169](#sa-0169) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0170](#sa-0170) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0172](#sa-0172) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0175](#sa-0175) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0176](#sa-0176) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0177](#sa-0177) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
+| [Security Advisory 0178](#sa-0178) | 🟡&nbsp;Medium | 8 | 0 | 0 | 0 | 8 | 0 | 0 |
 
 ## 🔐 Security Advisory Details <a id="security-advisory-details"></a>
 
@@ -102,10 +102,38 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF1 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF1 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF2 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF3 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF4 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE1 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-59995 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-59996 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-60001 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, openssh-server '9.9p1' is affected, and the SSH feature is enabled. | Upgrade EOS to a fixed release when one is published.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE2 | 🔴&nbsp;CVE-2026-60002 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected and openssh-clients '9.9p1' is affected. | Upgrade to EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 
 ### Security Advisory 0156 <a id="sa-0156"></a>
 
@@ -123,10 +151,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config \| include ^\s*reply source-address validation$ has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config \| include ^\s*reply source-address validation$ has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config \| include ^\s*reply source-address validation$ has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config \| include ^\s*reply source-address validation$ has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-BORDERLEAF2 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-LEAF1 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-LEAF2 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-LEAF3 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-LEAF4 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-SPINE1 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
+| DC1-SPINE2 | 🔴&nbsp;CVE-2026-73437 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP relay is disabled. | - |
 
 ### Security Advisory 0158 <a id="sa-0158"></a>
 
@@ -145,12 +177,20 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
+| DC1-BORDERLEAF2 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
+| DC1-LEAF1 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
 | DC1-LEAF2 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
 | DC1-LEAF3 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
 | DC1-LEAF4 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
+| DC1-SPINE1 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
 | DC1-SPINE2 | 🔴&nbsp;CVE-2026-73456 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI exposed authentication mode is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73457 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNPSI transport is disabled. | - |
 
@@ -170,9 +210,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
+| DC1-LEAF1 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
 | DC1-LEAF2 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
 | DC1-LEAF3 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
 | DC1-LEAF4 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
+| DC1-SPINE1 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
 | DC1-SPINE2 | 🔴&nbsp;CVE-2026-73447 | ❓&nbsp;Inconclusive | The assessment is inconclusive and the device may be affected. Indications: EOS version '4.35.4M' is affected. Unresolved: initial Bootz CertzProfile certificate contents is historical state. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory to determine whether the unresolved condition applies, for newly fixed releases, and for current mitigation guidance. |
 
 ### Security Advisory 0174 <a id="sa-0174"></a>
@@ -191,10 +235,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-LEAF1 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-LEAF2 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-LEAF3 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-LEAF4 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-SPINE1 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
+| DC1-SPINE2 | 🔴&nbsp;CVE-2026-73453 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the P4Runtime feature is disabled. | - |
 
 ### Security Advisory 0146 <a id="sa-0146"></a>
 
@@ -212,10 +260,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show daemon has failed: Incomplete command (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show daemon has failed: Incomplete command (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show daemon has failed: Incomplete command (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show daemon has failed: Incomplete command (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section grpcaddr has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-LEAF2 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-LEAF3 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-LEAF4 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
+| DC1-SPINE2 | 🟠&nbsp;GHSA-hrxh-6v49-42gf | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the gRIBI feature is disabled, and the TerminAttr feature is disabled. | - |
 
 ### Security Advisory 0154 <a id="sa-0154"></a>
 
@@ -233,10 +285,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section router bfd has failed: Invalid input (privileged mode required)<br>show running-config \| include bfd authentication has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section router bfd has failed: Invalid input (privileged mode required)<br>show running-config \| include bfd authentication has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section router bfd has failed: Invalid input (privileged mode required)<br>show running-config \| include bfd authentication has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section router bfd has failed: Invalid input (privileged mode required)<br>show running-config \| include bfd authentication has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-LEAF2 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-LEAF3 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-LEAF4 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
+| DC1-SPINE2 | 🟠&nbsp;CVE-2026-73458 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the BFD authentication is disabled. | - |
 
 ### Security Advisory 0160 <a id="sa-0160"></a>
 
@@ -256,6 +312,15 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
 | DC1-LEAF2 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
 | DC1-LEAF2 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
@@ -265,6 +330,9 @@
 | DC1-LEAF4 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
 | DC1-LEAF4 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
 | DC1-SPINE2 | 🟠&nbsp;CVE-2026-73446 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
 | DC1-SPINE2 | 🟠&nbsp;CVE-2026-73459 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS feature is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73460 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the IS-IS graceful restart is disabled. | - |
@@ -285,10 +353,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section aaa has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section aaa has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section aaa has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show management security ssl profile has failed: Invalid input (privileged mode required)<br>show running-config section aaa has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-LEAF2 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-LEAF3 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-LEAF4 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
+| DC1-SPINE2 | 🟠&nbsp;CVE-2026-73461 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI mTLS request authorization is disabled. | - |
 
 ### Security Advisory 0164 <a id="sa-0164"></a>
 
@@ -306,10 +378,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | bash timeout 10 sh -c 'if test -f /persist/sys/gnsi/pathz/policy.json; then cat /persist/sys/gnsi/pathz/policy.json; else echo null; fi' has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | bash timeout 10 sh -c 'if test -f /persist/sys/gnsi/pathz/policy.json; then cat /persist/sys/gnsi/pathz/policy.json; else echo null; fi' has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | bash timeout 10 sh -c 'if test -f /persist/sys/gnsi/pathz/policy.json; then cat /persist/sys/gnsi/pathz/policy.json; else echo null; fi' has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | bash timeout 10 sh -c 'if test -f /persist/sys/gnsi/pathz/policy.json; then cat /persist/sys/gnsi/pathz/policy.json; else echo null; fi' has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-LEAF2 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-LEAF3 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-LEAF4 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
+| DC1-SPINE2 | 🟠&nbsp;CVE-2026-73439 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Pathz service is disabled. | - |
 
 ### Security Advisory 0165 <a id="sa-0165"></a>
 
@@ -327,9 +403,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
 | DC1-LEAF2 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
 | DC1-LEAF3 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
 | DC1-LEAF4 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
 | DC1-SPINE2 | 🟠&nbsp;CVE-2026-73454 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI Credentialz service is disabled. | - |
 
 ### Security Advisory 0166 <a id="sa-0166"></a>
@@ -348,9 +428,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
 | DC1-LEAF2 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
 | DC1-LEAF3 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
 | DC1-LEAF4 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
 | DC1-SPINE2 | 🟠&nbsp;CVE-2026-73464 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled. | - |
 
 ### Security Advisory 0168 <a id="sa-0168"></a>
@@ -369,9 +453,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
 | DC1-LEAF2 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
 | DC1-LEAF3 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
 | DC1-LEAF4 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
 | DC1-SPINE2 | 🟠&nbsp;CVE-2026-2380 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI feature is disabled, the RESTCONF feature is disabled, and the NETCONF feature is disabled. | - |
 
 ### Security Advisory 0171 <a id="sa-0171"></a>
@@ -391,10 +479,22 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section ^router\sospf\s has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section ^router\sospf\s has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section ^router\sospf\s has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section ^router\sospf\s has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-LEAF2 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-LEAF3 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-LEAF4 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
+| DC1-SPINE2 | 🟠&nbsp;CVE-2026-73435 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 routing process configuration is not configured. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73436 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv2 segment routing is disabled. | - |
 
 ### Security Advisory 0173 <a id="sa-0173"></a>
 
@@ -412,10 +512,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-BORDERLEAF2 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF1 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF2 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF3 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF4 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-SPINE1 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-SPINE2 | 🟠&nbsp;CVE-2026-73455 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
 
 ### Security Advisory 0117 <a id="sa-0117"></a>
 
@@ -433,10 +537,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2025-0936 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
 
 ### Security Advisory 0140 <a id="sa-0140"></a>
 
@@ -454,10 +562,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show boot has failed: Incomplete command (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show boot has failed: Incomplete command (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show boot has failed: Incomplete command (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show boot has failed: Incomplete command (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-10040 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because EOS version '4.35.4M' is outside the affected releases. | - |
 
 ### Security Advisory 0142 <a id="sa-0142"></a>
 
@@ -475,10 +587,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config \| include ^ip software forwarding mtu exceed action drop$ has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config \| include ^ip software forwarding mtu exceed action drop$ has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config \| include ^ip software forwarding mtu exceed action drop$ has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config \| include ^ip software forwarding mtu exceed action drop$ has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-12546 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the next-hop redirection path using Policy-Based Routing configuration is not configured, the next-hop redirection path using BGP FlowSpec configuration is not configured, the next-hop redirection path using Traffic Policy configuration is not configured, the next-hop redirection path using DirectFlow configuration is not configured, and the next-hop redirection path using Segment Security configuration is not configured. | - |
 
 ### Security Advisory 0149 <a id="sa-0149"></a>
 
@@ -496,10 +612,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section radius proxy has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section radius proxy has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section radius proxy has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section radius proxy has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73449 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X dynamic authorization authenticator is disabled. | - |
 
 ### Security Advisory 0150 <a id="sa-0150"></a>
 
@@ -520,6 +640,18 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🔵&nbsp;CVE-2026-77191 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF1 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF1 | 🔵&nbsp;CVE-2026-75945 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF2 | 🔵&nbsp;CVE-2026-77191 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF2 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-BORDERLEAF2 | 🔵&nbsp;CVE-2026-75945 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-LEAF1 | 🔵&nbsp;CVE-2026-77191 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-LEAF1 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-LEAF1 | 🔵&nbsp;CVE-2026-75945 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-LEAF2 | 🔵&nbsp;CVE-2026-77191 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-LEAF2 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
@@ -532,6 +664,10 @@
 | DC1-LEAF4 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-LEAF4 | 🔵&nbsp;CVE-2026-75945 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-SPINE1 | 🔵&nbsp;CVE-2026-77191 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-SPINE1 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
+| DC1-SPINE1 | 🔵&nbsp;CVE-2026-75945 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-SPINE2 | 🔵&nbsp;CVE-2026-77191 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-SPINE2 | 🔵&nbsp;CVE-2026-75943 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-75944 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the 802.1X controlled authenticator is disabled. | - |
@@ -553,9 +689,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73451 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because platform 'vEOS-lab' is outside the affected platform scope. | - |
 
 ### Security Advisory 0152 <a id="sa-0152"></a>
@@ -574,10 +714,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show aaa methods authentication has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management telnet has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show aaa methods authentication has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management telnet has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show aaa methods authentication has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management telnet has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show aaa methods authentication has failed: Invalid input (privileged mode required)<br>show running-config section management ssh has failed: Invalid input (privileged mode required)<br>show running-config section management telnet has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-19641 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected, the AAA login authentication is enabled, and the AAA password-based management service is enabled. | Upgrade to EOS 4.36.1F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 
 ### Security Advisory 0153 <a id="sa-0153"></a>
 
@@ -597,10 +741,30 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required)<br>show running-config section trace has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73465 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for ConfigAgent private keys is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73466 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa user passwords is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73467 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the agent tracing risk for Aaa TACACS+ shared keys is disabled. | - |
 
 ### Security Advisory 0155 <a id="sa-0155"></a>
 
@@ -618,10 +782,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section dhcp has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section dhcp has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section dhcp has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section dhcp has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-19655 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the DHCP Option 82 exposure is disabled. | - |
 
 ### Security Advisory 0157 <a id="sa-0157"></a>
 
@@ -641,10 +809,30 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config \| include ^vrrp ipv4 authentication anti-replay$ has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config \| include ^vrrp ipv4 authentication anti-replay$ has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config \| include ^vrrp ipv4 authentication anti-replay$ has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config section vrrp has failed: Invalid input (privileged mode required)<br>show running-config \| include ^vrrp ipv4 authentication anti-replay$ has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-BORDERLEAF1 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-BORDERLEAF2 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF1 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF2 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF3 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-LEAF4 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-SPINE1 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73444 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73443 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP version 2 IP-AH authentication is disabled. | - |
+| DC1-SPINE2 | 🔵&nbsp;CVE-2026-73442 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the VRRP feature is disabled. | - |
 
 ### Security Advisory 0159 <a id="sa-0159"></a>
 
@@ -662,9 +850,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73462 | 🛑&nbsp;Affected | The device is affected because EOS version '4.35.4M' is affected. | Upgrade to EOS 4.36.2F or later in the 4.36 train or EOS 4.35.6M or later in the 4.35 train.<br>Refer to the advisory for newly fixed releases and current mitigation guidance. |
 
 ### Security Advisory 0161 <a id="sa-0161"></a>
@@ -683,9 +875,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73450 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the MLAG dual-primary heartbeat with errdisable-all action is disabled. | - |
 
 ### Security Advisory 0167 <a id="sa-0167"></a>
@@ -704,9 +900,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73445 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 
 ### Security Advisory 0169 <a id="sa-0169"></a>
@@ -725,9 +925,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-73463 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNSI transport is disabled. | - |
 
 ### Security Advisory 0170 <a id="sa-0170"></a>
@@ -746,9 +950,13 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
 | DC1-LEAF2 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
 | DC1-LEAF3 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
 | DC1-LEAF4 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
 | DC1-SPINE2 | 🟡&nbsp;CVE-2026-19640 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the gNMI request authorization is disabled. | - |
 
 ### Security Advisory 0172 <a id="sa-0172"></a>
@@ -767,10 +975,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config section ospfv3 has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73438 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the OSPFv3 routing process is disabled and the OSPFv3 legacy IPv6 routing process is disabled. | - |
 
 ### Security Advisory 0175 <a id="sa-0175"></a>
 
@@ -788,10 +1000,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73468 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
 
 ### Security Advisory 0176 <a id="sa-0176"></a>
 
@@ -809,10 +1025,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config \| include verify unicast source reachable-via any has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config \| include verify unicast source reachable-via any has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config \| include verify unicast source reachable-via any has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config \| include verify unicast source reachable-via any has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73469 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the uRPF loose-mode interface is disabled. | - |
 
 ### Security Advisory 0177 <a id="sa-0177"></a>
 
@@ -830,10 +1050,14 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config \| include pim.*sparse-mode has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-77190 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the PIM sparse-mode interface is disabled. | - |
 
 ### Security Advisory 0178 <a id="sa-0178"></a>
 
@@ -851,20 +1075,24 @@
 
 | Device | Vulnerability | Result | Findings | Remediations |
 | :- | :- | :- | :- | :- |
-| DC1-LEAF2 | - | ❗&nbsp;Error | show running-config \| include ^snmp-server user has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF3 | - | ❗&nbsp;Error | show running-config \| include ^snmp-server user has failed: Invalid input (privileged mode required) | - |
-| DC1-LEAF4 | - | ❗&nbsp;Error | show running-config \| include ^snmp-server user has failed: Invalid input (privileged mode required) | - |
-| DC1-SPINE2 | - | ❗&nbsp;Error | show running-config \| include ^snmp-server user has failed: Invalid input (privileged mode required) | - |
+| DC1-BORDERLEAF1 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-BORDERLEAF2 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-LEAF1 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-LEAF2 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-LEAF3 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-LEAF4 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-SPINE1 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
+| DC1-SPINE2 | 🟡&nbsp;CVE-2026-73440 | ✅&nbsp;Not&nbsp;Affected | The device is not affected because the SNMPv3 authentication key is disabled. | - |
 
 ## 📋 Run Overview <a id="run-overview"></a>
 
 | | |
 | :- | :- |
 | **ANTA Version** | v1.10.0 |
-| **Duration** | 13 seconds (2026-09-12 22:43:16.908+00:00 → 2026-09-12 22:43:30.737+00:00) |
+| **Duration** | 3 seconds (2026-09-12 23:05:12.839+00:00 → 2026-09-12 23:05:16.114+00:00) |
 | **Security Advisories Tested** | 35 |
 | **Total Devices In Inventory** | 8 |
-| **Devices Assessed** | 4 |
-| **Devices Unreachable At Setup** | DC1-BORDERLEAF1<br>DC1-BORDERLEAF2<br>DC1-LEAF1<br>DC1-SPINE1 |
+| **Devices Assessed** | 8 |
+| **Devices Unreachable At Setup** | None |
 | **Devices Filtered At Setup** | None |
 | **Filters Applied** | None |
