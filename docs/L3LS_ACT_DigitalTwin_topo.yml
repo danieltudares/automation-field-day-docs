@@ -111,15 +111,19 @@ nodes:
     ip_addr: 192.168.0.106
     node_type: veos
 - DC1-HOST1:
+    internet_access: true
     ip_addr: 192.168.0.201
     node_type: veos
 - DC1-HOST2:
+    internet_access: true
     ip_addr: 192.168.0.202
     node_type: veos
 - DC1-HOST3:
+    internet_access: true
     ip_addr: 192.168.0.203
     node_type: veos
 - DC1-HOST4:
+    internet_access: true
     ip_addr: 192.168.0.204
     node_type: veos
 - tool-server:
@@ -129,5 +133,6 @@ nodes:
     node_type: tools-server
 veos:
   switchport_default_mode_routed: false
-  username: arista
   version: 4.35.4M
+tools-server:
+  version: ubuntu-2404-lts
