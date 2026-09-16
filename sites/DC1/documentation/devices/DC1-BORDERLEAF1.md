@@ -262,6 +262,7 @@ vlan internal order ascending range 1006 1199
 | 112 | RED_DB | - |
 | 113 | RED_SHARED | - |
 | 119 | RED_L2_ONLY | - |
+| 120 | RED_L2_ONLY_120 | - |
 | 210 | BLUE_APP | - |
 | 211 | BLUE_WEB | - |
 | 212 | BLUE_DB | - |
@@ -290,6 +291,9 @@ vlan 113
 !
 vlan 119
    name RED_L2_ONLY
+!
+vlan 120
+   name RED_L2_ONLY_120
 !
 vlan 210
    name BLUE_APP
@@ -564,6 +568,7 @@ interface Vlan4094
 | 112 | 10112 | - | - |
 | 113 | 10113 | - | - |
 | 119 | 10119 | - | - |
+| 120 | 10120 | - | - |
 | 210 | 20210 | - | - |
 | 211 | 20211 | - | - |
 | 212 | 20212 | - | - |
@@ -591,6 +596,7 @@ interface Vxlan1
    vxlan vlan 112 vni 10112
    vxlan vlan 113 vni 10113
    vxlan vlan 119 vni 10119
+   vxlan vlan 120 vni 10120
    vxlan vlan 210 vni 20210
    vxlan vlan 211 vni 20211
    vxlan vlan 212 vni 20212
@@ -729,6 +735,7 @@ ASN Notation: asplain
 | 112 | 10.255.0.33:10112 | 10112:10112 | - | - | learned |
 | 113 | 10.255.0.33:10113 | 10113:10113 | - | - | learned |
 | 119 | 10.255.0.33:10119 | 10119:10119 | - | - | learned |
+| 120 | 10.255.0.33:10120 | 10120:10120 | - | - | learned |
 | 210 | 10.255.0.33:20210 | 20210:20210 | - | - | learned |
 | 211 | 10.255.0.33:20211 | 20211:20211 | - | - | learned |
 | 212 | 10.255.0.33:20212 | 20212:20212 | - | - | learned |
@@ -805,6 +812,11 @@ router bgp 65103
    vlan 119
       rd 10.255.0.33:10119
       route-target both 10119:10119
+      redistribute learned
+   !
+   vlan 120
+      rd 10.255.0.33:10120
+      route-target both 10120:10120
       redistribute learned
    !
    vlan 210

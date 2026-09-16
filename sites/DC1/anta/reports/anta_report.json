@@ -1987,17 +1987,17 @@
         "messages": [],
         "atomic_results": [
             {
+                "description": "Interface: Port-Channel3",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             },
             {
                 "description": "Interface: Port-Channel5",
-                "result": "success",
-                "messages": []
-            },
-            {
-                "description": "Interface: Port-Channel3",
                 "result": "success",
                 "messages": []
             }
@@ -2806,12 +2806,12 @@
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel5",
                 "result": "success",
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel5",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             }
@@ -3615,7 +3615,7 @@
         "messages": [],
         "atomic_results": [
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel5",
                 "result": "success",
                 "messages": []
             },
@@ -3625,7 +3625,7 @@
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel5",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             }
@@ -4429,12 +4429,12 @@
         "messages": [],
         "atomic_results": [
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel5",
                 "result": "success",
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel5",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             },
