@@ -25,6 +25,11 @@
                 "messages": []
             },
             {
+                "description": "Peer: 10.255.251.1 VRF: RED",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Peer: 10.255.255.0 VRF: default",
                 "result": "success",
                 "messages": []
@@ -182,6 +187,11 @@
             },
             {
                 "description": "Destination 10.255.0.2 (DC1-SPINE2_Loopback0) from Loopback0 in VRF default",
+                "result": "success",
+                "messages": []
+            },
+            {
+                "description": "Destination 10.255.251.1 (DC1-BORDERLEAF2_Vlan3009) in VRF RED",
                 "result": "success",
                 "messages": []
             },
@@ -738,6 +748,11 @@
                 "messages": []
             },
             {
+                "description": "Peer: 10.255.251.0 VRF: RED",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Peer: 10.255.255.4 VRF: default",
                 "result": "success",
                 "messages": []
@@ -895,6 +910,11 @@
             },
             {
                 "description": "Destination 10.255.0.2 (DC1-SPINE2_Loopback0) from Loopback0 in VRF default",
+                "result": "success",
+                "messages": []
+            },
+            {
+                "description": "Destination 10.255.251.0 (DC1-BORDERLEAF1_Vlan3009) in VRF RED",
                 "result": "success",
                 "messages": []
             },
@@ -1451,6 +1471,11 @@
                 "messages": []
             },
             {
+                "description": "Peer: 10.255.251.5 VRF: RED",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Peer: 10.255.255.8 VRF: default",
                 "result": "success",
                 "messages": []
@@ -1608,6 +1633,11 @@
             },
             {
                 "description": "Destination 10.255.0.2 (DC1-SPINE2_Loopback0) from Loopback0 in VRF default",
+                "result": "success",
+                "messages": []
+            },
+            {
+                "description": "Destination 10.255.251.5 (DC1-LEAF2_Vlan3009) in VRF RED",
                 "result": "success",
                 "messages": []
             },
@@ -2265,6 +2295,11 @@
                 "messages": []
             },
             {
+                "description": "Peer: 10.255.251.4 VRF: RED",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Peer: 10.255.255.12 VRF: default",
                 "result": "success",
                 "messages": []
@@ -2422,6 +2457,11 @@
             },
             {
                 "description": "Destination 10.255.0.2 (DC1-SPINE2_Loopback0) from Loopback0 in VRF default",
+                "result": "success",
+                "messages": []
+            },
+            {
+                "description": "Destination 10.255.251.4 (DC1-LEAF1_Vlan3009) in VRF RED",
                 "result": "success",
                 "messages": []
             },
@@ -2801,7 +2841,7 @@
         "messages": [],
         "atomic_results": [
             {
-                "description": "Interface: Port-Channel3",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             },
@@ -2811,7 +2851,7 @@
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel3",
                 "result": "success",
                 "messages": []
             }
@@ -3079,6 +3119,11 @@
                 "messages": []
             },
             {
+                "description": "Peer: 10.255.251.9 VRF: RED",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Peer: 10.255.255.16 VRF: default",
                 "result": "success",
                 "messages": []
@@ -3236,6 +3281,11 @@
             },
             {
                 "description": "Destination 10.255.0.2 (DC1-SPINE2_Loopback0) from Loopback0 in VRF default",
+                "result": "success",
+                "messages": []
+            },
+            {
+                "description": "Destination 10.255.251.9 (DC1-LEAF4_Vlan3009) in VRF RED",
                 "result": "success",
                 "messages": []
             },
@@ -3615,12 +3665,12 @@
         "messages": [],
         "atomic_results": [
             {
-                "description": "Interface: Port-Channel5",
+                "description": "Interface: Port-Channel3",
                 "result": "success",
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel3",
+                "description": "Interface: Port-Channel5",
                 "result": "success",
                 "messages": []
             },
@@ -3893,6 +3943,11 @@
                 "messages": []
             },
             {
+                "description": "Peer: 10.255.251.8 VRF: RED",
+                "result": "success",
+                "messages": []
+            },
+            {
                 "description": "Peer: 10.255.255.20 VRF: default",
                 "result": "success",
                 "messages": []
@@ -4050,6 +4105,11 @@
             },
             {
                 "description": "Destination 10.255.0.2 (DC1-SPINE2_Loopback0) from Loopback0 in VRF default",
+                "result": "success",
+                "messages": []
+            },
+            {
+                "description": "Destination 10.255.251.8 (DC1-LEAF3_Vlan3009) in VRF RED",
                 "result": "success",
                 "messages": []
             },
@@ -4434,12 +4494,12 @@
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel3",
                 "result": "success",
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel3",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             }

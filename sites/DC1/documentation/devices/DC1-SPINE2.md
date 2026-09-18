@@ -5,6 +5,7 @@
 - [Management](#management)
   - [Management Interfaces](#management-interfaces)
   - [IP Name Servers](#ip-name-servers)
+  - [Clock Settings](#clock-settings)
   - [NTP](#ntp)
   - [Management API HTTP](#management-api-http)
 - [Authentication](#authentication)
@@ -78,6 +79,19 @@ interface Management1
 ```eos
 ip name-server vrf default 8.8.8.8
 ip name-server vrf default 1.1.1.1 priority 1
+```
+
+### Clock Settings
+
+#### Clock Timezone Settings
+
+Clock Timezone is set to **EST**.
+
+#### Clock Device Configuration
+
+```eos
+!
+clock timezone EST
 ```
 
 ### NTP
