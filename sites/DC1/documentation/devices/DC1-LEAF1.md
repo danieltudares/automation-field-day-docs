@@ -278,7 +278,6 @@ vlan internal order ascending range 1006 1199
 | 120 | RED_L2_ONLY_120 | - |
 | 210 | BLUE_APP | - |
 | 211 | BLUE_WEB | - |
-| 212 | BLUE_DB | - |
 | 213 | BLUE_SHARED | - |
 | 219 | BLUE_L2_ONLY | - |
 | 3009 | MLAG_L3_VRF_RED | MLAG |
@@ -310,9 +309,6 @@ vlan 210
 !
 vlan 211
    name BLUE_WEB
-!
-vlan 212
-   name BLUE_DB
 !
 vlan 213
    name BLUE_SHARED
@@ -470,7 +466,6 @@ interface Loopback1
 | Vlan113 | RED_SHARED | RED | - | False |
 | Vlan210 | BLUE_APP | BLUE | - | False |
 | Vlan211 | BLUE_WEB | BLUE | - | False |
-| Vlan212 | BLUE_DB | BLUE | - | False |
 | Vlan213 | BLUE_SHARED | BLUE | - | False |
 | Vlan3009 | MLAG_L3_VRF_RED | RED | 1500 | False |
 | Vlan3019 | MLAG_L3_VRF_BLUE | BLUE | 1500 | False |
@@ -486,7 +481,6 @@ interface Loopback1
 | Vlan113 | RED | - | 10.10.13.1/24 | - | - | - |
 | Vlan210 | BLUE | - | 10.20.10.1/24 | - | - | - |
 | Vlan211 | BLUE | - | 10.20.11.1/24 | - | - | - |
-| Vlan212 | BLUE | - | 10.20.12.1/24 | - | - | - |
 | Vlan213 | BLUE | - | 10.20.13.1/24 | - | - | - |
 | Vlan3009 | RED | 10.255.251.4/31 | - | - | - | - |
 | Vlan3019 | BLUE | 10.255.251.4/31 | - | - | - | - |
@@ -526,12 +520,6 @@ interface Vlan211
    no shutdown
    vrf BLUE
    ip address virtual 10.20.11.1/24
-!
-interface Vlan212
-   description BLUE_DB
-   no shutdown
-   vrf BLUE
-   ip address virtual 10.20.12.1/24
 !
 interface Vlan213
    description BLUE_SHARED
@@ -588,7 +576,6 @@ interface Vlan4094
 | 120 | 10120 | - | - |
 | 210 | 20210 | - | - |
 | 211 | 20211 | - | - |
-| 212 | 20212 | - | - |
 | 213 | 20213 | - | - |
 | 219 | 20219 | - | - |
 
@@ -615,7 +602,6 @@ interface Vxlan1
    vxlan vlan 120 vni 10120
    vxlan vlan 210 vni 20210
    vxlan vlan 211 vni 20211
-   vxlan vlan 212 vni 20212
    vxlan vlan 213 vni 20213
    vxlan vlan 219 vni 20219
    vxlan vrf BLUE vni 20
@@ -753,7 +739,6 @@ ASN Notation: asplain
 | 120 | 10.255.0.35:10120 | 10120:10120 | - | - | learned |
 | 210 | 10.255.0.35:20210 | 20210:20210 | - | - | learned |
 | 211 | 10.255.0.35:20211 | 20211:20211 | - | - | learned |
-| 212 | 10.255.0.35:20212 | 20212:20212 | - | - | learned |
 | 213 | 10.255.0.35:20213 | 20213:20213 | - | - | learned |
 | 219 | 10.255.0.35:20219 | 20219:20219 | - | - | learned |
 
@@ -837,11 +822,6 @@ router bgp 65101
    vlan 211
       rd 10.255.0.35:20211
       route-target both 20211:20211
-      redistribute learned
-   !
-   vlan 212
-      rd 10.255.0.35:20212
-      route-target both 20212:20212
       redistribute learned
    !
    vlan 213

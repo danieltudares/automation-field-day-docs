@@ -438,11 +438,6 @@
                 "messages": []
             },
             {
-                "description": "Interface: Vlan212",
-                "result": "success",
-                "messages": []
-            },
-            {
                 "description": "Interface: Vlan213",
                 "result": "success",
                 "messages": []
@@ -1152,11 +1147,6 @@
             },
             {
                 "description": "Interface: Vlan211",
-                "result": "success",
-                "messages": []
-            },
-            {
-                "description": "Interface: Vlan212",
                 "result": "success",
                 "messages": []
             },
@@ -1925,11 +1915,6 @@
             },
             {
                 "description": "Interface: Vlan211",
-                "result": "success",
-                "messages": []
-            },
-            {
-                "description": "Interface: Vlan212",
                 "result": "success",
                 "messages": []
             },
@@ -2723,11 +2708,6 @@
                 "messages": []
             },
             {
-                "description": "Interface: Vlan212",
-                "result": "success",
-                "messages": []
-            },
-            {
                 "description": "Interface: Vlan213",
                 "result": "success",
                 "messages": []
@@ -3517,11 +3497,6 @@
                 "messages": []
             },
             {
-                "description": "Interface: Vlan212",
-                "result": "success",
-                "messages": []
-            },
-            {
                 "description": "Interface: Vlan213",
                 "result": "success",
                 "messages": []
@@ -3565,12 +3540,12 @@
         "messages": [],
         "atomic_results": [
             {
-                "description": "Interface: Port-Channel3",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel3",
                 "result": "success",
                 "messages": []
             }
@@ -4311,11 +4286,6 @@
                 "messages": []
             },
             {
-                "description": "Interface: Vlan212",
-                "result": "success",
-                "messages": []
-            },
-            {
                 "description": "Interface: Vlan213",
                 "result": "success",
                 "messages": []
@@ -4359,12 +4329,12 @@
         "messages": [],
         "atomic_results": [
             {
-                "description": "Interface: Port-Channel3",
+                "description": "Interface: Port-Channel6",
                 "result": "success",
                 "messages": []
             },
             {
-                "description": "Interface: Port-Channel6",
+                "description": "Interface: Port-Channel3",
                 "result": "success",
                 "messages": []
             }
