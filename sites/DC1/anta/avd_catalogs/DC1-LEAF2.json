@@ -297,10 +297,6 @@
             "status": "up"
           },
           {
-            "name": "Ethernet5",
-            "status": "up"
-          },
-          {
             "name": "Ethernet6",
             "status": "up"
           },
@@ -317,15 +313,7 @@
             "status": "up"
           },
           {
-            "name": "Port-Channel5",
-            "status": "up"
-          },
-          {
             "name": "Port-Channel6",
-            "status": "up"
-          },
-          {
-            "name": "Vlan110",
             "status": "up"
           },
           {

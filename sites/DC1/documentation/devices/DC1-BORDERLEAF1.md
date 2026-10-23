@@ -271,7 +271,6 @@ vlan internal order ascending range 1006 1199
 
 | VLAN ID | Name | Trunk Groups |
 | ------- | ---- | ------------ |
-| 110 | RED_APP | - |
 | 111 | RED_WEB | - |
 | 112 | RED_DB | - |
 | 113 | RED_SHARED | - |
@@ -290,9 +289,6 @@ vlan internal order ascending range 1006 1199
 ### VLANs Device Configuration
 
 ```eos
-!
-vlan 110
-   name RED_APP
 !
 vlan 111
    name RED_WEB
@@ -453,7 +449,6 @@ interface Loopback1
 
 | Interface | Description | VRF | MTU | Shutdown |
 | --------- | ----------- | --- | --- | -------- |
-| Vlan110 | RED_APP | RED | - | False |
 | Vlan111 | RED_WEB | RED | - | False |
 | Vlan112 | RED_DB | RED | - | False |
 | Vlan113 | RED_SHARED | RED | - | False |
@@ -470,7 +465,6 @@ interface Loopback1
 
 | Interface | VRF | IP Address | IP Address Virtual | IP Router Virtual Address | ACL In | ACL Out |
 | --------- | --- | ---------- | ------------------ | ------------------------- | ------ | ------- |
-| Vlan110 | RED | - | 10.10.10.1/24 | - | - | - |
 | Vlan111 | RED | - | 10.10.11.1/24 | - | - | - |
 | Vlan112 | RED | - | 10.10.12.1/24 | - | - | - |
 | Vlan113 | RED | - | 10.10.13.1/24 | - | - | - |
@@ -486,12 +480,6 @@ interface Loopback1
 #### VLAN Interfaces Device Configuration
 
 ```eos
-!
-interface Vlan110
-   description RED_APP
-   no shutdown
-   vrf RED
-   ip address virtual 10.10.10.1/24
 !
 interface Vlan111
    description RED_WEB
@@ -577,7 +565,6 @@ interface Vlan4094
 
 | VLAN | VNI | Flood List | Multicast Group |
 | ---- | --- | ---------- | --------------- |
-| 110 | 10110 | - | - |
 | 111 | 10111 | - | - |
 | 112 | 10112 | - | - |
 | 113 | 10113 | - | - |
@@ -605,7 +592,6 @@ interface Vxlan1
    vxlan source-interface Loopback1
    vxlan virtual-router encapsulation mac-address mlag-system-id
    vxlan udp-port 4789
-   vxlan vlan 110 vni 10110
    vxlan vlan 111 vni 10111
    vxlan vlan 112 vni 10112
    vxlan vlan 113 vni 10113
@@ -744,7 +730,6 @@ ASN Notation: asplain
 
 | VLAN | Route-Distinguisher | Both Route-Target | Import Route Target | Export Route-Target | Redistribute |
 | ---- | ------------------- | ----------------- | ------------------- | ------------------- | ------------ |
-| 110 | 10.255.0.33:10110 | 10110:10110 | - | - | learned |
 | 111 | 10.255.0.33:10111 | 10111:10111 | - | - | learned |
 | 112 | 10.255.0.33:10112 | 10112:10112 | - | - | learned |
 | 113 | 10.255.0.33:10113 | 10113:10113 | - | - | learned |
@@ -802,11 +787,6 @@ router bgp 65103
    neighbor 10.255.255.2 remote-as 65000
    neighbor 10.255.255.2 description DC1-SPINE2_Ethernet5
    redistribute connected route-map RM-CONN-2-BGP
-   !
-   vlan 110
-      rd 10.255.0.33:10110
-      route-target both 10110:10110
-      redistribute learned
    !
    vlan 111
       rd 10.255.0.33:10111
