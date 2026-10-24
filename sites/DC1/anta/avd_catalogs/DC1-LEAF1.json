@@ -337,6 +337,10 @@
             "status": "up"
           },
           {
+            "name": "Vlan212",
+            "status": "up"
+          },
+          {
             "name": "Vlan213",
             "status": "up"
           },
