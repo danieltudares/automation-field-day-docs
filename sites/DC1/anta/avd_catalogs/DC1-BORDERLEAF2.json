@@ -167,6 +167,12 @@
         },
         "hosts": [
           {
+            "destination": "10.34.12.2",
+            "description": null,
+            "vrf": "RED",
+            "repeat": 1
+          },
+          {
             "destination": "10.255.0.1",
             "source": "Loopback0",
             "description": "DC1-SPINE1_Loopback0",
@@ -309,6 +315,10 @@
             "status": "up"
           },
           {
+            "name": "Vlan110",
+            "status": "up"
+          },
+          {
             "name": "Vlan111",
             "status": "up"
           },
@@ -318,6 +328,10 @@
           },
           {
             "name": "Vlan113",
+            "status": "up"
+          },
+          {
+            "name": "Vlan114",
             "status": "up"
           },
           {
@@ -422,6 +436,10 @@
           ]
         },
         "bgp_peers": [
+          {
+            "peer_address": "10.34.12.2",
+            "vrf": "RED"
+          },
           {
             "peer_address": "10.255.0.1",
             "vrf": "default"

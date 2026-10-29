@@ -1,11 +1,13 @@
 Device,Test Name,Test Status,Message(s),Test description,Test category
-DC1-BORDERLEAF1,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.,BGP
+DC1-BORDERLEAF1,VerifyBGPPeerSession,failure,Peer: 10.34.12.2 VRF: RED - Incorrect session state - Expected: Established Actual: Idle,Verifies the session state of BGP peers.,BGP
+DC1-BORDERLEAF1,VerifyReachability,failure,Destination 10.34.12.2 in VRF RED - Unreachable,Verifies reachability to BGP neighbors.,Connectivity
+DC1-BORDERLEAF2,VerifyBGPPeerSession,failure,Peer: 10.34.12.2 VRF: RED - Incorrect session state - Expected: Established Actual: Idle,Verifies the session state of BGP peers.,BGP
+DC1-BORDERLEAF2,VerifyReachability,failure,Destination 10.34.12.2 in VRF RED - Unreachable,Verifies reachability to BGP neighbors.,Connectivity
 DC1-BORDERLEAF1,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-BORDERLEAF1,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-BORDERLEAF1,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
 DC1-BORDERLEAF1,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-BORDERLEAF1,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
-DC1-BORDERLEAF1,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-BORDERLEAF1,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-BORDERLEAF1,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-BORDERLEAF1,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces
@@ -27,13 +29,11 @@ DC1-BORDERLEAF1,VerifyMemoryUtilization,success,,Verifies whether the memory uti
 DC1-BORDERLEAF1,VerifyNTP,success,,Verifies if NTP is synchronised.,System
 DC1-BORDERLEAF1,VerifyReloadCause,success,,Verifies the last reload cause of the device.,System
 DC1-BORDERLEAF1,VerifyVxlanConfigSanity,success,,Verifies there are no VXLAN config-sanity inconsistencies.,VXLAN
-DC1-BORDERLEAF2,VerifyBGPPeerSession,success,,Verifies the session state of BGP peers.,BGP
 DC1-BORDERLEAF2,VerifyRunningConfigDiffs,success,,Verifies there is no difference between the running-config and the startup-config.,Configuration
 DC1-BORDERLEAF2,VerifyZeroTouch,success,,Verifies ZeroTouch is disabled.,Configuration
 DC1-BORDERLEAF2,VerifyLLDPNeighbors,success,,Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors.,Connectivity
 DC1-BORDERLEAF2,VerifyReachability,success,,Verifies VTEP fabric-wide underlay reachability.,Connectivity
 DC1-BORDERLEAF2,VerifyReachability,success,,Verifies point-to-point reachability between Ethernet interfaces.,Connectivity
-DC1-BORDERLEAF2,VerifyReachability,success,,Verifies reachability to BGP neighbors.,Connectivity
 DC1-BORDERLEAF2,VerifyIllegalLACP,success,,Verifies there are no illegal LACP packets in port channels.,Interfaces
 DC1-BORDERLEAF2,VerifyInterfaceDiscards,success,,Verifies that the interfaces packet discard counters are equal to zero.,Interfaces
 DC1-BORDERLEAF2,VerifyInterfaceErrDisabled,success,,Verifies there are no interfaces in the errdisabled state.,Interfaces

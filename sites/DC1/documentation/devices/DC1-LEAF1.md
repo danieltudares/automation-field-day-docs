@@ -271,9 +271,11 @@ vlan internal order ascending range 1006 1199
 
 | VLAN ID | Name | Trunk Groups |
 | ------- | ---- | ------------ |
+| 110 | RED_APP | - |
 | 111 | RED_WEB | - |
 | 112 | RED_DB | - |
 | 113 | RED_SHARED | - |
+| 114 | RED_DEMO | - |
 | 119 | RED_L2_ONLY | - |
 | 120 | RED_L2_ONLY_120 | - |
 | 210 | BLUE_APP | - |
@@ -290,6 +292,9 @@ vlan internal order ascending range 1006 1199
 
 ```eos
 !
+vlan 110
+   name RED_APP
+!
 vlan 111
    name RED_WEB
 !
@@ -298,6 +303,9 @@ vlan 112
 !
 vlan 113
    name RED_SHARED
+!
+vlan 114
+   name RED_DEMO
 !
 vlan 119
    name RED_L2_ONLY
@@ -465,9 +473,11 @@ interface Loopback1
 
 | Interface | Description | VRF | MTU | Shutdown |
 | --------- | ----------- | --- | --- | -------- |
+| Vlan110 | RED_APP | RED | - | False |
 | Vlan111 | RED_WEB | RED | - | False |
 | Vlan112 | RED_DB | RED | - | False |
 | Vlan113 | RED_SHARED | RED | - | False |
+| Vlan114 | RED_DEMO | RED | - | False |
 | Vlan210 | BLUE_APP | BLUE | - | False |
 | Vlan211 | BLUE_WEB | BLUE | - | False |
 | Vlan212 | BLUE_DB | BLUE | - | False |
@@ -481,9 +491,11 @@ interface Loopback1
 
 | Interface | VRF | IP Address | IP Address Virtual | IP Router Virtual Address | ACL In | ACL Out |
 | --------- | --- | ---------- | ------------------ | ------------------------- | ------ | ------- |
+| Vlan110 | RED | - | 10.10.10.1/24 | - | - | - |
 | Vlan111 | RED | - | 10.10.11.1/24 | - | - | - |
 | Vlan112 | RED | - | 10.10.12.1/24 | - | - | - |
 | Vlan113 | RED | - | 10.10.13.1/24 | - | - | - |
+| Vlan114 | RED | - | 10.10.14.1/24 | - | - | - |
 | Vlan210 | BLUE | - | 10.20.10.1/24 | - | - | - |
 | Vlan211 | BLUE | - | 10.20.11.1/24 | - | - | - |
 | Vlan212 | BLUE | - | 10.20.12.1/24 | - | - | - |
@@ -496,6 +508,12 @@ interface Loopback1
 #### VLAN Interfaces Device Configuration
 
 ```eos
+!
+interface Vlan110
+   description RED_APP
+   no shutdown
+   vrf RED
+   ip address virtual 10.10.10.1/24
 !
 interface Vlan111
    description RED_WEB
@@ -514,6 +532,12 @@ interface Vlan113
    no shutdown
    vrf RED
    ip address virtual 10.10.13.1/24
+!
+interface Vlan114
+   description RED_DEMO
+   no shutdown
+   vrf RED
+   ip address virtual 10.10.14.1/24
 !
 interface Vlan210
    description BLUE_APP
@@ -581,9 +605,11 @@ interface Vlan4094
 
 | VLAN | VNI | Flood List | Multicast Group |
 | ---- | --- | ---------- | --------------- |
+| 110 | 10110 | - | - |
 | 111 | 10111 | - | - |
 | 112 | 10112 | - | - |
 | 113 | 10113 | - | - |
+| 114 | 10114 | - | - |
 | 119 | 10119 | - | - |
 | 120 | 10120 | - | - |
 | 210 | 20210 | - | - |
@@ -608,9 +634,11 @@ interface Vxlan1
    vxlan source-interface Loopback1
    vxlan virtual-router encapsulation mac-address mlag-system-id
    vxlan udp-port 4789
+   vxlan vlan 110 vni 10110
    vxlan vlan 111 vni 10111
    vxlan vlan 112 vni 10112
    vxlan vlan 113 vni 10113
+   vxlan vlan 114 vni 10114
    vxlan vlan 119 vni 10119
    vxlan vlan 120 vni 10120
    vxlan vlan 210 vni 20210
@@ -746,9 +774,11 @@ ASN Notation: asplain
 
 | VLAN | Route-Distinguisher | Both Route-Target | Import Route Target | Export Route-Target | Redistribute |
 | ---- | ------------------- | ----------------- | ------------------- | ------------------- | ------------ |
+| 110 | 10.255.0.35:10110 | 10110:10110 | - | - | learned |
 | 111 | 10.255.0.35:10111 | 10111:10111 | - | - | learned |
 | 112 | 10.255.0.35:10112 | 10112:10112 | - | - | learned |
 | 113 | 10.255.0.35:10113 | 10113:10113 | - | - | learned |
+| 114 | 10.255.0.35:10114 | 10114:10114 | - | - | learned |
 | 119 | 10.255.0.35:10119 | 10119:10119 | - | - | learned |
 | 120 | 10.255.0.35:10120 | 10120:10120 | - | - | learned |
 | 210 | 10.255.0.35:20210 | 20210:20210 | - | - | learned |
@@ -804,6 +834,11 @@ router bgp 65101
    neighbor 10.255.255.10 description DC1-SPINE2_Ethernet1
    redistribute connected route-map RM-CONN-2-BGP
    !
+   vlan 110
+      rd 10.255.0.35:10110
+      route-target both 10110:10110
+      redistribute learned
+   !
    vlan 111
       rd 10.255.0.35:10111
       route-target both 10111:10111
@@ -817,6 +852,11 @@ router bgp 65101
    vlan 113
       rd 10.255.0.35:10113
       route-target both 10113:10113
+      redistribute learned
+   !
+   vlan 114
+      rd 10.255.0.35:10114
+      route-target both 10114:10114
       redistribute learned
    !
    vlan 119

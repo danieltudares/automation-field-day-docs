@@ -15,14 +15,14 @@
 
 | Total Tests | ✅&nbsp;Success | ⏭️&nbsp;Skipped | ❌&nbsp;Failure | ❗&nbsp;Error |
 | :- | :- | :- | :- | :- |
-| 208 | 208 | 0 | 0 | 0 |
+| 208 | 204 | 0 | 4 | 0 |
 
 ### 🔌 Summary Totals Device Under Test <a id="summary-totals-device-under-test"></a>
 
 | Device | Total Tests | ✅&nbsp;Success | ⏭️&nbsp;Skipped | ❌&nbsp;Failure | ❗&nbsp;Error | Categories Skipped | Categories Failed |
 | :- | :- | :- | :- | :- | :- | :- | :- |
-| **DC1-BORDERLEAF1** | 28 | 28 | 0 | 0 | 0 | - | - |
-| **DC1-BORDERLEAF2** | 28 | 28 | 0 | 0 | 0 | - | - |
+| **DC1-BORDERLEAF1** | 28 | 26 | 0 | 2 | 0 | - | BGP, Connectivity |
+| **DC1-BORDERLEAF2** | 28 | 26 | 0 | 2 | 0 | - | BGP, Connectivity |
 | **DC1-LEAF1** | 28 | 28 | 0 | 0 | 0 | - | - |
 | **DC1-LEAF2** | 28 | 28 | 0 | 0 | 0 | - | - |
 | **DC1-LEAF3** | 28 | 28 | 0 | 0 | 0 | - | - |
@@ -34,9 +34,9 @@
 
 | Test Category | Total Tests | ✅&nbsp;Success | ⏭️&nbsp;Skipped | ❌&nbsp;Failure | ❗&nbsp;Error |
 | :- | :- | :- | :- | :- | :- |
-| **BGP** | 8 | 8 | 0 | 0 | 0 |
+| **BGP** | 8 | 6 | 0 | 2 | 0 |
 | **Configuration** | 16 | 16 | 0 | 0 | 0 |
-| **Connectivity** | 30 | 30 | 0 | 0 | 0 |
+| **Connectivity** | 30 | 28 | 0 | 2 | 0 |
 | **Interfaces** | 52 | 52 | 0 | 0 | 0 |
 | **MLAG** | 18 | 18 | 0 | 0 | 0 |
 | **Routing** | 14 | 14 | 0 | 0 | 0 |
@@ -48,13 +48,15 @@
 
 | Device | Categories | Test | Description | Result | Messages |
 | :- | :- | :- | :- | :- | :- |
-| DC1-BORDERLEAF1 | BGP | VerifyBGPPeerSession | Verifies the session state of BGP peers. | ✅&nbsp;Success | - |
+| DC1-BORDERLEAF1 | BGP | VerifyBGPPeerSession | Verifies the session state of BGP peers. | ❌&nbsp;Failure | Peer: 10.34.12.2 VRF: RED - Incorrect session state - Expected: Established Actual: Idle |
+| DC1-BORDERLEAF1 | Connectivity | VerifyReachability | Verifies reachability to BGP neighbors. | ❌&nbsp;Failure | Destination 10.34.12.2 in VRF RED - Unreachable |
+| DC1-BORDERLEAF2 | BGP | VerifyBGPPeerSession | Verifies the session state of BGP peers. | ❌&nbsp;Failure | Peer: 10.34.12.2 VRF: RED - Incorrect session state - Expected: Established Actual: Idle |
+| DC1-BORDERLEAF2 | Connectivity | VerifyReachability | Verifies reachability to BGP neighbors. | ❌&nbsp;Failure | Destination 10.34.12.2 in VRF RED - Unreachable |
 | DC1-BORDERLEAF1 | Configuration | VerifyRunningConfigDiffs | Verifies there is no difference between the running-config and the startup-config. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Configuration | VerifyZeroTouch | Verifies ZeroTouch is disabled. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Connectivity | VerifyLLDPNeighbors | Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Connectivity | VerifyReachability | Verifies VTEP fabric-wide underlay reachability. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Connectivity | VerifyReachability | Verifies point-to-point reachability between Ethernet interfaces. | ✅&nbsp;Success | - |
-| DC1-BORDERLEAF1 | Connectivity | VerifyReachability | Verifies reachability to BGP neighbors. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Interfaces | VerifyIllegalLACP | Verifies there are no illegal LACP packets in port channels. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Interfaces | VerifyInterfaceDiscards | Verifies that the interfaces packet discard counters are equal to zero. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | Interfaces | VerifyInterfaceErrDisabled | Verifies there are no interfaces in the errdisabled state. | ✅&nbsp;Success | - |
@@ -76,13 +78,11 @@
 | DC1-BORDERLEAF1 | System | VerifyNTP | Verifies if NTP is synchronised. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | System | VerifyReloadCause | Verifies the last reload cause of the device. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF1 | VXLAN | VerifyVxlanConfigSanity | Verifies there are no VXLAN config-sanity inconsistencies. | ✅&nbsp;Success | - |
-| DC1-BORDERLEAF2 | BGP | VerifyBGPPeerSession | Verifies the session state of BGP peers. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Configuration | VerifyRunningConfigDiffs | Verifies there is no difference between the running-config and the startup-config. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Configuration | VerifyZeroTouch | Verifies ZeroTouch is disabled. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Connectivity | VerifyLLDPNeighbors | Verifies the connection status of the specified LLDP (Link Layer Discovery Protocol) neighbors. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Connectivity | VerifyReachability | Verifies VTEP fabric-wide underlay reachability. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Connectivity | VerifyReachability | Verifies point-to-point reachability between Ethernet interfaces. | ✅&nbsp;Success | - |
-| DC1-BORDERLEAF2 | Connectivity | VerifyReachability | Verifies reachability to BGP neighbors. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Interfaces | VerifyIllegalLACP | Verifies there are no illegal LACP packets in port channels. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Interfaces | VerifyInterfaceDiscards | Verifies that the interfaces packet discard counters are equal to zero. | ✅&nbsp;Success | - |
 | DC1-BORDERLEAF2 | Interfaces | VerifyInterfaceErrDisabled | Verifies there are no interfaces in the errdisabled state. | ✅&nbsp;Success | - |
